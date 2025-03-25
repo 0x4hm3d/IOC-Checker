@@ -53,3 +53,8 @@ pip install -r requirements.txt
 echo "[API_KEYS]" > config.ini
 echo "virustotal = your_vt_api_key" >> config.ini
 echo "abuseipdb = your_abuseipdb_api_key" >> config.ini
+URL Scan (virustotal_urls.csv)
+csv
+url,scan_date,positives,total,status,final_url
+hxxp://evil[.]com,2023-08-20 14:30:00,45,72,malicious,hxxp://redirect[.]evil[.]com
+hxxps://safe[.]org,2023-08-20 14:30:16,0,72,clean,hxxps://safe[.]org/login
