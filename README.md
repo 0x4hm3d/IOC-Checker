@@ -113,9 +113,8 @@ Please enter the TXT file PATH:
 - Status indicators: `clean/malicious/suspicious/error`
 - Error logging with timestamps in CSV
 - Rate-limited API calls (15s VT / 1s AbuseIPDB)
-```
-```
-🚧 Future Enhancements
+
+🚧 **Future Enhancements
 
 - Batch processing for large datasets
 - JSON output option
