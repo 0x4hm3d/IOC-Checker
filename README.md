@@ -24,7 +24,7 @@ A comprehensive threat intelligence tool for automated Indicator of Compromise (
 - 🔄 Resumable Scans: Saves progress for interrupted operations
 - ⏱️ Rate Limiting: Complies with API quotas (VT: 4 req/min, AbuseIPDB: 1k/day)
 ### Actionable Outputs:
-- Terminal Alerts: Color-coded results (Red=Malicious, Yellow=Suspicious)
+- Terminal Alerts: With the result (Malicious, Suspicious, Clean)
 - Structured Reports:
 ```bash
 📂 results/
