@@ -54,4 +54,5 @@ echo "abuseipdb = your_abuseipdb_api_key" >> config.ini
 
 ### Basic Command
 ```bash
-python3 ioc-checker.py -i input.txt -o results.csv
+python3 ioc-checker.py 
+![Uploading image.png…]()
