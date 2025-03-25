@@ -4,32 +4,35 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-4.2-orange)
 
-A robust security tool for analyzing **domains**, **URLs**, **hashes**, and **IP addresses** using VirusTotal and AbuseIPDB APIs with automatic defanging of malicious indicators.
+A comprehensive threat intelligence tool for automated Indicator of Compromise (IOC) analysis.
 
 ## 📜 Table of Contents
-- [Features](#-features)
+- [Key Capabilities](#-key-capabilities)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Output Samples](#-output-samples)
-- [Key Features](#key-future)
-## 🌟 Features
 
-- **Multi-type scanning**:
-  - 🌐 Domain reputation analysis
-  - 🔗 URL scanning (with redirect tracking)
-  - 🔐 File hash verification
-  - 📡 IP address reputation checks
-
-- **Security-focused outputs**:
-  - 🛡️ Automatic defanging of IOCs (URLs/Domains/IPs)
-  - 📊 Structured CSV reports
-  - ⚠️ Clear malicious/clean classification
-
-- **Enterprise-ready**:
-  - ⏱️ Built-in rate limiting
-  - 🔄 Resume capability (partial results saved)
-  - 📝 Detailed error logging
-
+## 📌 Key Capabilities
+### Multi-IOC Support:
+- 🌐 Domains: Reputation checks via VirusTotal
+- 🔗 URLs: Scan for malware/phishing with redirect tracing
+- 📡 IPs: Abuse detection with geolocation (AbuseIPDB)
+- 🔐 Hashes (MD5/SHA-1/SHA-256): Malware verdicts from 70+ AV engines
+### Enterprise-Grade Features:
+- 🛡️ Auto-Defanging: Safely renders malicious IOCs (e.g., hxxp://evil[.]com)
+- 📊 Bulk Processing: CSV input support for large-scale analysis
+- 🔄 Resumable Scans: Saves progress for interrupted operations
+- ⏱️ Rate Limiting: Complies with API quotas (VT: 4 req/min, AbuseIPDB: 1k/day)
+### Actionable Outputs:
+- Terminal Alerts: Color-coded results (Red=Malicious, Yellow=Suspicious)
+- Structured Reports:
+```bash
+📂 results/
+├── virustotal_domains.csv  # Domain reputation  
+├── virustotal_urls.csv     # URL scan results  
+├── virustotal_hashes.csv   # File hash analysis  
+└── abuseipdb_report.csv    # IP threat intelligence
+```  
 ## 🚀 Installation
 
 ### Prerequisites
@@ -107,9 +110,3 @@ Please enter the TXT file PATH:
    - `totalReports`, `status`
    *Example*:  
    `1[.]2[.]3[.]4, 98%, US, EvilISP, true, 142, suspicious`
-
-🔍 **Key Features**:
-- All IOCs automatically defanged in outputs
-- Status indicators: `clean/malicious/suspicious/error`
-- Error logging with timestamps in CSV
-- Rate-limited API calls (15s VT / 1s AbuseIPDB)
