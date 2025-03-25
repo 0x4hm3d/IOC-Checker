@@ -9,11 +9,6 @@ A robust security tool for analyzing **domains**, **URLs**, **hashes**, and **IP
 ## 📜 Table of Contents
 - [Features](#-features)
 - [Installation](#-installation)
-- [Usage](#-usage)
-- [Output Samples](#-output-samples)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-- [License](#-license)
 
 ## 🌟 Features
 
