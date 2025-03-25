@@ -74,10 +74,13 @@ Please enter the TXT file PATH:
 ```
 ## 📊 Output Samples
 - URL Scan (virustotal_urls.csv)
+```bash
 url,scan_date,positives,total,status,final_url
 hxxp://evil[.]com,2023-08-20 14:30:00,45,72,malicious,hxxp://redirect[.]evil[.]com
 hxxps://safe[.]org,2023-08-20 14:30:16,0,72,clean,hxxps://safe[.]org/login
+=====================================================================================
 - IP Scan (abuseipdb_report.csv)
+```bash
 ip_address,abuse_score,country,usage_type,domain,is_whitelisted,reported_times
 192.168.1.1,98%,US,"Data Center/Web Hosting",evil.net,False,142
 10.0.0.1,5%,CA,Corporate,company.com,True,2
