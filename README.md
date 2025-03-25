@@ -9,7 +9,7 @@ A robust security tool for analyzing **domains**, **URLs**, **hashes**, and **IP
 ## 📜 Table of Contents
 - [Features](#-features)
 - [Installation](#-installation)
-
+- [Usage](#-usage)
 ## 🌟 Features
 
 - **Multi-type scanning**:
@@ -48,3 +48,10 @@ pip install -r requirements.txt
 echo "[API_KEYS]" > config.ini
 echo "virustotal = your_vt_api_key" >> config.ini
 echo "abuseipdb = your_abuseipdb_api_key" >> config.ini
+
+````
+## 🖥️ Usage
+
+### Basic Command
+```bash
+python3 ioc-checker.py -i input.txt -o results.csv
