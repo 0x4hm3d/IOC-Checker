@@ -43,9 +43,9 @@ A robust security tool for analyzing **domains**, **URLs**, **hashes**, and **IP
 
 ```bash
 # Clone repository
-git clone [https://github.com/yourusername/ioc-checker.git](https://github.com/0x4hm3d/IOC-Checker.git)
-cd ioc-scanner
-
+git clone https://github.com/0x4hm3d/IOC-Checker.git
+cd IOC-Checker
+python3 ioc-checker.py 
 # Install dependencies
 pip install -r requirements.txt
 
