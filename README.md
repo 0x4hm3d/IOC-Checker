@@ -43,7 +43,7 @@ A robust security tool for analyzing **domains**, **URLs**, **hashes**, and **IP
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/ioc-checker.git
+git clone [https://github.com/yourusername/ioc-checker.git](https://github.com/0x4hm3d/IOC-Checker.git)
 cd ioc-scanner
 
 # Install dependencies
