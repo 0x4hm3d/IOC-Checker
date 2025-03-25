@@ -10,7 +10,7 @@ A comprehensive threat intelligence tool for automated Indicator of Compromise (
 - [Key Capabilities](#-key-capabilities)
 - [Installation](#-installation)
 - [Usage](#-usage)
-- [Output Samples](#-output-samples)
+- [Output Files](#-output-files)
 
 ## 📌 Key Capabilities
 ### Multi-IOC Support:
