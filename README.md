@@ -114,6 +114,7 @@ Please enter the TXT file PATH:
 - Error logging with timestamps in CSV
 - Rate-limited API calls (15s VT / 1s AbuseIPDB)
 ```
+```
 🚧 Future Enhancements
 
 - Batch processing for large datasets
