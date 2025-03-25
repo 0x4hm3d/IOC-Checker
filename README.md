@@ -55,4 +55,17 @@ echo "abuseipdb = your_abuseipdb_api_key" >> config.ini
 ### Basic Command
 ```bash
 python3 ioc-checker.py 
-![Uploading image.png…]()
+ ____  ___      __         __  __ __    ___     __  __  _    ___  ____  
+l    j/   \    /  ]       /  ]|  T  T  /  _]   /  ]|  l/ ]  /  _]|    \ 
+ |  TY     Y  /  /       /  / |  l  | /  [_   /  / |  ' /  /  [_ |  D  )
+ |  ||  O  | /  /       /  /  |  _  |Y    _] /  /  |    \ Y    _]|    / 
+ |  ||     |/   \_     /   \_ |  |  ||   [_ /   \_ |     Y|   [_ |    \ 
+ j  ll     !\     |    \     ||  |  ||     T\     ||  .  ||     T|  .  Y
+|____j\___/  \____j     \____jl__j__jl_____j \____jl__j\_jl_____jl__j\_j
+                                                                        
+        Author: Ahmed ElHabashi
+        X: @iahmedelhabashy
+        Version:  IOC Checker v1.0 - URL/Domain/Hashes/IPs
+
+
+Please enter the TXT file PATH:
