@@ -11,6 +11,7 @@ A robust security tool for analyzing **domains**, **URLs**, **hashes**, and **IP
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Output Samples](#-output-samples)
+  - [Future Enhancements](#-future-enhancements)
 ## 🌟 Features
 
 - **Multi-type scanning**:
@@ -86,4 +87,10 @@ ip_address,abuse_score,country,usage_type,domain,is_whitelisted,reported_times
 [192].[168].[1].[1],98%,US,"Data Center/Web Hosting",evil.net,False,142
 [10].[0].[0].[1],5%,CA,Corporate,company.com,True,2
 ====================================================================================
-
+```
+🚧 Future Enhancements
+- Add hybrid analysis integration
+- Implement asynchronous scanning
+- Add GUI interface option
+- Support for additional IOC types (email, registry keys)
+- Docker container deployment
