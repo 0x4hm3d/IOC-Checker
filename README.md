@@ -11,7 +11,7 @@ A robust security tool for analyzing **domains**, **URLs**, **hashes**, and **IP
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Output Samples](#-output-samples)
-- [Future Enhancements](#-future-enhancements)
+- [Key Features](#key-future)
 ## 🌟 Features
 
 - **Multi-type scanning**:
@@ -113,13 +113,3 @@ Please enter the TXT file PATH:
 - Status indicators: `clean/malicious/suspicious/error`
 - Error logging with timestamps in CSV
 - Rate-limited API calls (15s VT / 1s AbuseIPDB)
-
-🚧 **Future Enhancements
-
-- Batch processing for large datasets
-- JSON output option
-- Integration with MISP/TheHive
-- GUI interface (PyQt/Tkinter)
-- Docker container deployment
-- Asynchronous scanning for performance
-========================================================================
